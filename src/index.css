@@ -6,9 +6,21 @@
 
 body {
   font-family: "Merriweather", serif;
-  font-weight: 300;
+  font-weight: 400;
   font-style: normal;
 }
 .cream {
-  color: #fcf8f4;
+  background-color: #fcf8f4;
+}
+.react-tel-input .form-control {
+  width: 100% !important;
+  border: none !important;
+}
+.react-tel-input {
+  border: 2px solid gray !important;
+}
+
+.form-container form::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
 }
